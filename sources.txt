@@ -1,0 +1,2 @@
+./data
+/usr/lib/python3.8
