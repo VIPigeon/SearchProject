@@ -1,0 +1,5 @@
+Qt Documentation
+Учебник Яндекс лицея
+Python Documentation
+habr.com
+Stack Overflow
