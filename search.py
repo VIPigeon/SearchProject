@@ -28,7 +28,7 @@ def function(name1, args1, class_name1, doc_string1):
     return result
 
 
-def class_(name1, doc_string1):
+def klass(name1, doc_string1):
     sql = """
         SELECT
             line_no,
@@ -68,7 +68,7 @@ def start(type1, name1, args1, class_name1, doc_string1):
     # класс
     if type1 == 'c':
         # print('c')
-        return class_(name1, doc_string1)
+        return klass(name1, doc_string1)
 
     # print('gv')
     # глобальная переменная (type1 == 'gv')
