@@ -45,7 +45,7 @@ class OpenFile(QMainWindow):
         self.textBrowser.ensureCursorVisible()
 
 
-class MyWidget(QMainWindow):
+class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         uic.loadUi('search_parameters.ui', self)
@@ -83,6 +83,6 @@ class MyWidget(QMainWindow):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    ex = MyWidget()
+    ex = MainWindow()
     ex.show()
     sys.exit(app.exec_())
