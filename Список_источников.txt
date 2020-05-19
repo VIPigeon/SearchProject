@@ -1,5 +1,11 @@
 Qt Documentation
-Учебник Яндекс лицея
 Python Documentation
 habr.com
 Stack Overflow
+
+Учебник Яндекс лицея
+https://www.sqlite.org/index.html
+https://habr.com/ru/post/221523/
+
+
+https://habr.com/ru/post/144566/
